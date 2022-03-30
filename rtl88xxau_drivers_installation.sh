@@ -37,7 +37,7 @@ cd rtl8812au/
 make
 make install
 
-# Reboot para aplicar cambios
+# Reboot to apply changes
 echo -e "\n${greenColour}[+] Installation completed${endColour}\n"
 echo -e "\n${greenColour}Your system will reboot...${endColour}\n"
 sleep 3
