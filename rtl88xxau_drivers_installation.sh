@@ -24,11 +24,11 @@ function ctrl_c(){
 }
 
 # Update and upgrade packages and dist
-apt-get update && apt-get upgrade && apt-get dist-upgrade -y
+apt-get update &>/dev/null && apt-get upgrade -y &>/dev/null && apt-get dist-upgrade -y &>/dev/null
 
 # Component installations required
 
-apt-get install realtek-rtl88xxau-dkms && apt-get install dkms -y
+apt-get install realtek-rtl88xxau-dkms -y &>/dev/null && apt-get install dkms -y &>/dev/null
 
 # Clone drivers oficial repo
 
