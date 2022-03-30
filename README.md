@@ -18,4 +18,5 @@ Execute the script:
 
 IMPORTANT NOTE
 
-**Note:** If after rebooting, you system can't detect wlan0 interface, you may to unplug and plug another time to recognize the wlan interface. You can do **iwconfig** to detect wireless cards interfaces.
+**Note:** ![image](https://user-images.githubusercontent.com/85514196/160802848-35ac2cfe-ea9f-4a55-8a0c-87a68ccb0acb.png)
+If after rebooting, you system can't detect wlan0 interface, you may to unplug and plug another time to recognize the wlan interface. You can do **iwconfig** to detect wireless cards interfaces.
